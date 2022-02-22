@@ -24,5 +24,17 @@
                 Gross salary is: <span id="answer"></span>
             </div>
         </div>
+        <script>
+            function calculate_gross_salary(){
+            let base_salary = document.getElementById('basesalary').value;
+            med_cover = 1000
+            food = 2000
+            fuel = 3000
+            var gloss_salary = base_salary + med_cover + food + fuel
+            document.getElementById("answer").innerHTML = gloss_salary;
+        }
+
+        </script>
+
     </body>
 </html>
