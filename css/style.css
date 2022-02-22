@@ -19,6 +19,7 @@ form label > span {
 }
 form input[type=text] {
     width: 60%;
+    background-color: white;
 }
 form input[type=button] {
     float: right;
@@ -26,7 +27,7 @@ form input[type=button] {
     height: 2.2em;
 }
 div {
-    border: 1px black solid;
+    border: 1px white solid;
     width: 31em;
     margin: auto;
 }
@@ -40,4 +41,13 @@ form + div {
 }
 div > span {
     color: red;
+}
+
+body{
+    background-color: black;
+        color: white;
+}
+
+.classbase{
+    color: black;
 }
