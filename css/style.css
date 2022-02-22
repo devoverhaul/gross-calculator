@@ -1,6 +1,10 @@
+body{
+    background-color: black;
+}
 h1 {
     text-align: center;
     margin-top: 2em;
+    color:white;
 }
 form {
     background-color: beige;

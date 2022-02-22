@@ -16,13 +16,24 @@
                 
                 <label>
                     <span> </span>
-                    <input type="button" value="Calculate gross salary"/>
+                    <input type="button" value="Calculate gross salary" onclick="Culculate()"/>
                 </label>
             </form>
 
             <div>
                 Gross salary is: <span id="answer"></span>
+                
             </div>
         </div>
+        <script type="text/javascript">
+           
+           function Calculate (){
+            var base = document.getElementById('basesalary');
+            
+            var gross =  base.value -base.value*0.16 ;
+            document.getElementById('answer').innerHTML = 'Gross salary is = ' + gross;
+           }
+
+        </script>
     </body>
 </html>
