@@ -1,9 +1,13 @@
+body{
+    color: white;
+    background-color: rgb(58, 58, 58);
+}
 h1 {
     text-align: center;
     margin-top: 2em;
 }
 form {
-    background-color: beige;
+    background-color: rgb(66, 66, 51);
     padding: 2em;
     height: 5.5em;
     margin: auto;
@@ -36,8 +40,8 @@ form + div {
     padding-bottom: 2em;
     border-right: none;
     border-left: none;
-    color: green;
+    color: rgb(45, 233, 45);
 }
 div > span {
-    color: red;
+    color: rgb(255, 255, 255);
 }
