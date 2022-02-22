@@ -1,9 +1,12 @@
+body{
+    background-color: grey;
+}
 h1 {
     text-align: center;
     margin-top: 2em;
 }
 form {
-    background-color: beige;
+    background-color: rgb(32, 32, 32);
     padding: 2em;
     height: 5.5em;
     margin: auto;
@@ -16,6 +19,7 @@ form label > span {
     width: 25%;
     float: left;
     padding-left: 5%;
+    color: beige;
 }
 form input[type=text] {
     width: 60%;
@@ -36,8 +40,8 @@ form + div {
     padding-bottom: 2em;
     border-right: none;
     border-left: none;
-    color: green;
+    color: beige;
 }
 div > span {
-    color: red;
+    color: beige;
 }
